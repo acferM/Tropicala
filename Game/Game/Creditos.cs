@@ -22,5 +22,10 @@ namespace Game
             var telaMenu = new Menu();
             telaMenu.Show();
         }
+
+        private void Creditos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

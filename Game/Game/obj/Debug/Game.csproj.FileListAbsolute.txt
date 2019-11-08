@@ -10,3 +10,15 @@ C:\Users\acfer\source\repos\Game\Game\obj\Debug\Game.exe
 C:\Users\acfer\source\repos\Game\Game\obj\Debug\Game.pdb
 C:\Users\acfer\source\repos\Game\Game\obj\Debug\Game.Creditos.resources
 C:\Users\acfer\source\repos\Game\Game\obj\Debug\Game.Game.resources
+C:\Users\aluno.NAVERECIFE\Tropicala\Game\Game\bin\Debug\Game.exe.config
+C:\Users\aluno.NAVERECIFE\Tropicala\Game\Game\bin\Debug\Game.exe
+C:\Users\aluno.NAVERECIFE\Tropicala\Game\Game\obj\Debug\Game.csprojAssemblyReference.cache
+C:\Users\aluno.NAVERECIFE\Tropicala\Game\Game\obj\Debug\Game.Creditos.resources
+C:\Users\aluno.NAVERECIFE\Tropicala\Game\Game\obj\Debug\Game.Game.resources
+C:\Users\aluno.NAVERECIFE\Tropicala\Game\Game\obj\Debug\Game.Menu.resources
+C:\Users\aluno.NAVERECIFE\Tropicala\Game\Game\obj\Debug\Game.Properties.Resources.resources
+C:\Users\aluno.NAVERECIFE\Tropicala\Game\Game\obj\Debug\Game.csproj.GenerateResource.cache
+C:\Users\aluno.NAVERECIFE\Tropicala\Game\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+C:\Users\aluno.NAVERECIFE\Tropicala\Game\Game\obj\Debug\Game.exe
+C:\Users\aluno.NAVERECIFE\Tropicala\Game\Game\obj\Debug\Game.pdb
+C:\Users\aluno.NAVERECIFE\Tropicala\Game\Game\bin\Debug\Game.pdb

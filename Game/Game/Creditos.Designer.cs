@@ -42,6 +42,7 @@
             this.Name = "Creditos";
             this.Text = "Creditos";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Creditos_FormClosed);
+            this.Load += new System.EventHandler(this.Creditos_Load);
             this.ResumeLayout(false);
 
         }
