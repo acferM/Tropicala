@@ -35,6 +35,7 @@ namespace Game
 
         private void Menu_FormClosed(object sender, FormClosedEventArgs e)
         {
+            Environment.Exit(1);
         }
     }
 }
