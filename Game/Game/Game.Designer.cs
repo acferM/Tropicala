@@ -31,6 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Game));
             this.CalaPrincipalP2 = new System.Windows.Forms.TableLayoutPanel();
             this.CalaPrincipalP1 = new System.Windows.Forms.TableLayoutPanel();
+            this.NumCalaPrincipalP1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.MoverB1 = new System.Windows.Forms.Button();
             this.MoverB2 = new System.Windows.Forms.Button();
             this.MoverB3 = new System.Windows.Forms.Button();
@@ -44,58 +46,56 @@
             this.MoverA5 = new System.Windows.Forms.Button();
             this.MoverA6 = new System.Windows.Forms.Button();
             this.Tabuleiro = new System.Windows.Forms.TableLayoutPanel();
-            this.CalaB1 = new System.Windows.Forms.TableLayoutPanel();
-            this.NumCalaB1 = new System.Windows.Forms.Label();
-            this.img7 = new System.Windows.Forms.Button();
-            this.CalaA1 = new System.Windows.Forms.TableLayoutPanel();
-            this.NumCalaA1 = new System.Windows.Forms.Label();
-            this.img1 = new System.Windows.Forms.Button();
-            this.CalaA2 = new System.Windows.Forms.TableLayoutPanel();
-            this.NumCalaA2 = new System.Windows.Forms.Label();
-            this.img2 = new System.Windows.Forms.Button();
-            this.CalaA3 = new System.Windows.Forms.TableLayoutPanel();
-            this.NumCalaA3 = new System.Windows.Forms.Label();
-            this.img3 = new System.Windows.Forms.Button();
-            this.CalaA4 = new System.Windows.Forms.TableLayoutPanel();
-            this.NumCalaA4 = new System.Windows.Forms.Label();
-            this.img4 = new System.Windows.Forms.Button();
-            this.CalaA5 = new System.Windows.Forms.TableLayoutPanel();
-            this.NumCalaA5 = new System.Windows.Forms.Label();
-            this.img5 = new System.Windows.Forms.Button();
-            this.CalaA6 = new System.Windows.Forms.TableLayoutPanel();
-            this.NumCalaA6 = new System.Windows.Forms.Label();
-            this.img6 = new System.Windows.Forms.Button();
-            this.CalaB2 = new System.Windows.Forms.TableLayoutPanel();
-            this.NumCalaB2 = new System.Windows.Forms.Label();
-            this.img8 = new System.Windows.Forms.Button();
-            this.CalaB3 = new System.Windows.Forms.TableLayoutPanel();
-            this.NumCalaB3 = new System.Windows.Forms.Label();
-            this.img9 = new System.Windows.Forms.Button();
-            this.CalaB4 = new System.Windows.Forms.TableLayoutPanel();
-            this.NumCalaB4 = new System.Windows.Forms.Label();
-            this.img10 = new System.Windows.Forms.Button();
-            this.CalaB5 = new System.Windows.Forms.TableLayoutPanel();
-            this.NumCalaB5 = new System.Windows.Forms.Label();
-            this.img11 = new System.Windows.Forms.Button();
             this.CalaB6 = new System.Windows.Forms.TableLayoutPanel();
             this.NumCalaB6 = new System.Windows.Forms.Label();
             this.img12 = new System.Windows.Forms.Button();
-            this.NumCalaPrincipalP1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.CalaB5 = new System.Windows.Forms.TableLayoutPanel();
+            this.NumCalaB5 = new System.Windows.Forms.Label();
+            this.img11 = new System.Windows.Forms.Button();
+            this.CalaB4 = new System.Windows.Forms.TableLayoutPanel();
+            this.NumCalaB4 = new System.Windows.Forms.Label();
+            this.img10 = new System.Windows.Forms.Button();
+            this.CalaB3 = new System.Windows.Forms.TableLayoutPanel();
+            this.NumCalaB3 = new System.Windows.Forms.Label();
+            this.img9 = new System.Windows.Forms.Button();
+            this.CalaB2 = new System.Windows.Forms.TableLayoutPanel();
+            this.NumCalaB2 = new System.Windows.Forms.Label();
+            this.img8 = new System.Windows.Forms.Button();
+            this.CalaA6 = new System.Windows.Forms.TableLayoutPanel();
+            this.NumCalaA6 = new System.Windows.Forms.Label();
+            this.img6 = new System.Windows.Forms.Button();
+            this.CalaA5 = new System.Windows.Forms.TableLayoutPanel();
+            this.NumCalaA5 = new System.Windows.Forms.Label();
+            this.img5 = new System.Windows.Forms.Button();
+            this.CalaA4 = new System.Windows.Forms.TableLayoutPanel();
+            this.NumCalaA4 = new System.Windows.Forms.Label();
+            this.img4 = new System.Windows.Forms.Button();
+            this.CalaA3 = new System.Windows.Forms.TableLayoutPanel();
+            this.NumCalaA3 = new System.Windows.Forms.Label();
+            this.img3 = new System.Windows.Forms.Button();
+            this.CalaA2 = new System.Windows.Forms.TableLayoutPanel();
+            this.NumCalaA2 = new System.Windows.Forms.Label();
+            this.img2 = new System.Windows.Forms.Button();
+            this.CalaA1 = new System.Windows.Forms.TableLayoutPanel();
+            this.NumCalaA1 = new System.Windows.Forms.Label();
+            this.img1 = new System.Windows.Forms.Button();
+            this.CalaB1 = new System.Windows.Forms.TableLayoutPanel();
+            this.NumCalaB1 = new System.Windows.Forms.Label();
+            this.img7 = new System.Windows.Forms.Button();
             this.CalaPrincipalP1.SuspendLayout();
             this.Tabuleiro.SuspendLayout();
-            this.CalaB1.SuspendLayout();
-            this.CalaA1.SuspendLayout();
-            this.CalaA2.SuspendLayout();
-            this.CalaA3.SuspendLayout();
-            this.CalaA4.SuspendLayout();
-            this.CalaA5.SuspendLayout();
-            this.CalaA6.SuspendLayout();
-            this.CalaB2.SuspendLayout();
-            this.CalaB3.SuspendLayout();
-            this.CalaB4.SuspendLayout();
-            this.CalaB5.SuspendLayout();
             this.CalaB6.SuspendLayout();
+            this.CalaB5.SuspendLayout();
+            this.CalaB4.SuspendLayout();
+            this.CalaB3.SuspendLayout();
+            this.CalaB2.SuspendLayout();
+            this.CalaA6.SuspendLayout();
+            this.CalaA5.SuspendLayout();
+            this.CalaA4.SuspendLayout();
+            this.CalaA3.SuspendLayout();
+            this.CalaA2.SuspendLayout();
+            this.CalaA1.SuspendLayout();
+            this.CalaB1.SuspendLayout();
             this.SuspendLayout();
             // 
             // CalaPrincipalP2
@@ -125,6 +125,23 @@
             this.CalaPrincipalP1.Size = new System.Drawing.Size(100, 185);
             this.CalaPrincipalP1.TabIndex = 2;
             // 
+            // NumCalaPrincipalP1
+            // 
+            this.NumCalaPrincipalP1.AutoSize = true;
+            this.NumCalaPrincipalP1.Location = new System.Drawing.Point(53, 0);
+            this.NumCalaPrincipalP1.Name = "NumCalaPrincipalP1";
+            this.NumCalaPrincipalP1.Size = new System.Drawing.Size(13, 13);
+            this.NumCalaPrincipalP1.TabIndex = 0;
+            this.NumCalaPrincipalP1.Text = "0";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(3, 3);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(44, 44);
+            this.button1.TabIndex = 1;
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // MoverB1
             // 
             this.MoverB1.Location = new System.Drawing.Point(127, 339);
@@ -143,6 +160,7 @@
             this.MoverB2.TabIndex = 4;
             this.MoverB2.Text = "Mover";
             this.MoverB2.UseVisualStyleBackColor = true;
+            this.MoverB2.Click += new System.EventHandler(this.MoverB2_Click);
             // 
             // MoverB3
             // 
@@ -152,6 +170,7 @@
             this.MoverB3.TabIndex = 5;
             this.MoverB3.Text = "Mover";
             this.MoverB3.UseVisualStyleBackColor = true;
+            this.MoverB3.Click += new System.EventHandler(this.MoverB3_Click);
             // 
             // MoverB4
             // 
@@ -161,6 +180,7 @@
             this.MoverB4.TabIndex = 6;
             this.MoverB4.Text = "Mover";
             this.MoverB4.UseVisualStyleBackColor = true;
+            this.MoverB4.Click += new System.EventHandler(this.MoverB4_Click);
             // 
             // MoverB5
             // 
@@ -264,325 +284,37 @@
             this.Tabuleiro.Size = new System.Drawing.Size(528, 185);
             this.Tabuleiro.TabIndex = 15;
             // 
-            // CalaB1
+            // CalaB6
             // 
-            this.CalaB1.ColumnCount = 1;
-            this.CalaB1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.CalaB1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.CalaB1.Controls.Add(this.NumCalaB1, 0, 1);
-            this.CalaB1.Controls.Add(this.img7, 0, 0);
-            this.CalaB1.Location = new System.Drawing.Point(6, 97);
-            this.CalaB1.Name = "CalaB1";
-            this.CalaB1.RowCount = 2;
-            this.CalaB1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.CalaB1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.CalaB1.Size = new System.Drawing.Size(78, 82);
-            this.CalaB1.TabIndex = 0;
+            this.CalaB6.ColumnCount = 1;
+            this.CalaB6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.CalaB6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.CalaB6.Controls.Add(this.NumCalaB6, 0, 1);
+            this.CalaB6.Controls.Add(this.img12, 0, 0);
+            this.CalaB6.Location = new System.Drawing.Point(441, 97);
+            this.CalaB6.Name = "CalaB6";
+            this.CalaB6.RowCount = 2;
+            this.CalaB6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.CalaB6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.CalaB6.Size = new System.Drawing.Size(81, 82);
+            this.CalaB6.TabIndex = 11;
             // 
-            // NumCalaB1
+            // NumCalaB6
             // 
-            this.NumCalaB1.AutoSize = true;
-            this.NumCalaB1.Location = new System.Drawing.Point(3, 41);
-            this.NumCalaB1.Name = "NumCalaB1";
-            this.NumCalaB1.Size = new System.Drawing.Size(43, 13);
-            this.NumCalaB1.TabIndex = 0;
-            this.NumCalaB1.Text = "          4";
+            this.NumCalaB6.AutoSize = true;
+            this.NumCalaB6.Location = new System.Drawing.Point(3, 41);
+            this.NumCalaB6.Name = "NumCalaB6";
+            this.NumCalaB6.Size = new System.Drawing.Size(40, 13);
+            this.NumCalaB6.TabIndex = 0;
+            this.NumCalaB6.Text = "         4";
             // 
-            // img7
+            // img12
             // 
-            this.img7.Location = new System.Drawing.Point(3, 3);
-            this.img7.Name = "img7";
-            this.img7.Size = new System.Drawing.Size(72, 23);
-            this.img7.TabIndex = 1;
-            this.img7.UseVisualStyleBackColor = true;
-            // 
-            // CalaA1
-            // 
-            this.CalaA1.ColumnCount = 1;
-            this.CalaA1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.CalaA1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.CalaA1.Controls.Add(this.NumCalaA1, 0, 1);
-            this.CalaA1.Controls.Add(this.img1, 0, 0);
-            this.CalaA1.Location = new System.Drawing.Point(6, 6);
-            this.CalaA1.Name = "CalaA1";
-            this.CalaA1.RowCount = 2;
-            this.CalaA1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.CalaA1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.CalaA1.Size = new System.Drawing.Size(78, 82);
-            this.CalaA1.TabIndex = 1;
-            // 
-            // NumCalaA1
-            // 
-            this.NumCalaA1.AutoSize = true;
-            this.NumCalaA1.Location = new System.Drawing.Point(3, 41);
-            this.NumCalaA1.Name = "NumCalaA1";
-            this.NumCalaA1.Size = new System.Drawing.Size(40, 13);
-            this.NumCalaA1.TabIndex = 0;
-            this.NumCalaA1.Text = "         4";
-            // 
-            // img1
-            // 
-            this.img1.Location = new System.Drawing.Point(3, 3);
-            this.img1.Name = "img1";
-            this.img1.Size = new System.Drawing.Size(72, 23);
-            this.img1.TabIndex = 1;
-            this.img1.UseVisualStyleBackColor = true;
-            // 
-            // CalaA2
-            // 
-            this.CalaA2.ColumnCount = 1;
-            this.CalaA2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.CalaA2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.CalaA2.Controls.Add(this.NumCalaA2, 0, 1);
-            this.CalaA2.Controls.Add(this.img2, 0, 0);
-            this.CalaA2.Location = new System.Drawing.Point(93, 6);
-            this.CalaA2.Name = "CalaA2";
-            this.CalaA2.RowCount = 2;
-            this.CalaA2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.CalaA2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.CalaA2.Size = new System.Drawing.Size(78, 82);
-            this.CalaA2.TabIndex = 2;
-            // 
-            // NumCalaA2
-            // 
-            this.NumCalaA2.AutoSize = true;
-            this.NumCalaA2.Location = new System.Drawing.Point(3, 41);
-            this.NumCalaA2.Name = "NumCalaA2";
-            this.NumCalaA2.Size = new System.Drawing.Size(40, 13);
-            this.NumCalaA2.TabIndex = 0;
-            this.NumCalaA2.Text = "         4";
-            // 
-            // img2
-            // 
-            this.img2.Location = new System.Drawing.Point(3, 3);
-            this.img2.Name = "img2";
-            this.img2.Size = new System.Drawing.Size(72, 23);
-            this.img2.TabIndex = 1;
-            this.img2.UseVisualStyleBackColor = true;
-            // 
-            // CalaA3
-            // 
-            this.CalaA3.ColumnCount = 1;
-            this.CalaA3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.CalaA3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.CalaA3.Controls.Add(this.NumCalaA3, 0, 1);
-            this.CalaA3.Controls.Add(this.img3, 0, 0);
-            this.CalaA3.Location = new System.Drawing.Point(180, 6);
-            this.CalaA3.Name = "CalaA3";
-            this.CalaA3.RowCount = 2;
-            this.CalaA3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.CalaA3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.CalaA3.Size = new System.Drawing.Size(78, 82);
-            this.CalaA3.TabIndex = 3;
-            // 
-            // NumCalaA3
-            // 
-            this.NumCalaA3.AutoSize = true;
-            this.NumCalaA3.Location = new System.Drawing.Point(3, 41);
-            this.NumCalaA3.Name = "NumCalaA3";
-            this.NumCalaA3.Size = new System.Drawing.Size(40, 13);
-            this.NumCalaA3.TabIndex = 0;
-            this.NumCalaA3.Text = "         4";
-            // 
-            // img3
-            // 
-            this.img3.Location = new System.Drawing.Point(3, 3);
-            this.img3.Name = "img3";
-            this.img3.Size = new System.Drawing.Size(72, 23);
-            this.img3.TabIndex = 1;
-            this.img3.UseVisualStyleBackColor = true;
-            // 
-            // CalaA4
-            // 
-            this.CalaA4.ColumnCount = 1;
-            this.CalaA4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.CalaA4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.CalaA4.Controls.Add(this.NumCalaA4, 0, 1);
-            this.CalaA4.Controls.Add(this.img4, 0, 0);
-            this.CalaA4.Location = new System.Drawing.Point(267, 6);
-            this.CalaA4.Name = "CalaA4";
-            this.CalaA4.RowCount = 2;
-            this.CalaA4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.CalaA4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.CalaA4.Size = new System.Drawing.Size(78, 82);
-            this.CalaA4.TabIndex = 4;
-            // 
-            // NumCalaA4
-            // 
-            this.NumCalaA4.AutoSize = true;
-            this.NumCalaA4.Location = new System.Drawing.Point(3, 41);
-            this.NumCalaA4.Name = "NumCalaA4";
-            this.NumCalaA4.Size = new System.Drawing.Size(40, 13);
-            this.NumCalaA4.TabIndex = 0;
-            this.NumCalaA4.Text = "         4";
-            // 
-            // img4
-            // 
-            this.img4.Location = new System.Drawing.Point(3, 3);
-            this.img4.Name = "img4";
-            this.img4.Size = new System.Drawing.Size(72, 23);
-            this.img4.TabIndex = 1;
-            this.img4.UseVisualStyleBackColor = true;
-            // 
-            // CalaA5
-            // 
-            this.CalaA5.ColumnCount = 1;
-            this.CalaA5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.CalaA5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.CalaA5.Controls.Add(this.NumCalaA5, 0, 1);
-            this.CalaA5.Controls.Add(this.img5, 0, 0);
-            this.CalaA5.Location = new System.Drawing.Point(354, 6);
-            this.CalaA5.Name = "CalaA5";
-            this.CalaA5.RowCount = 2;
-            this.CalaA5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.CalaA5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.CalaA5.Size = new System.Drawing.Size(78, 82);
-            this.CalaA5.TabIndex = 5;
-            // 
-            // NumCalaA5
-            // 
-            this.NumCalaA5.AutoSize = true;
-            this.NumCalaA5.Location = new System.Drawing.Point(3, 41);
-            this.NumCalaA5.Name = "NumCalaA5";
-            this.NumCalaA5.Size = new System.Drawing.Size(40, 13);
-            this.NumCalaA5.TabIndex = 0;
-            this.NumCalaA5.Text = "         4";
-            // 
-            // img5
-            // 
-            this.img5.Location = new System.Drawing.Point(3, 3);
-            this.img5.Name = "img5";
-            this.img5.Size = new System.Drawing.Size(72, 23);
-            this.img5.TabIndex = 1;
-            this.img5.UseVisualStyleBackColor = true;
-            // 
-            // CalaA6
-            // 
-            this.CalaA6.ColumnCount = 1;
-            this.CalaA6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.CalaA6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.CalaA6.Controls.Add(this.NumCalaA6, 0, 1);
-            this.CalaA6.Controls.Add(this.img6, 0, 0);
-            this.CalaA6.Location = new System.Drawing.Point(441, 6);
-            this.CalaA6.Name = "CalaA6";
-            this.CalaA6.RowCount = 2;
-            this.CalaA6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.CalaA6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.CalaA6.Size = new System.Drawing.Size(81, 82);
-            this.CalaA6.TabIndex = 6;
-            // 
-            // NumCalaA6
-            // 
-            this.NumCalaA6.AutoSize = true;
-            this.NumCalaA6.Location = new System.Drawing.Point(3, 41);
-            this.NumCalaA6.Name = "NumCalaA6";
-            this.NumCalaA6.Size = new System.Drawing.Size(40, 13);
-            this.NumCalaA6.TabIndex = 0;
-            this.NumCalaA6.Text = "         4";
-            // 
-            // img6
-            // 
-            this.img6.Location = new System.Drawing.Point(3, 3);
-            this.img6.Name = "img6";
-            this.img6.Size = new System.Drawing.Size(75, 23);
-            this.img6.TabIndex = 1;
-            this.img6.UseVisualStyleBackColor = true;
-            // 
-            // CalaB2
-            // 
-            this.CalaB2.ColumnCount = 1;
-            this.CalaB2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.CalaB2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.CalaB2.Controls.Add(this.NumCalaB2, 0, 1);
-            this.CalaB2.Controls.Add(this.img8, 0, 0);
-            this.CalaB2.Location = new System.Drawing.Point(93, 97);
-            this.CalaB2.Name = "CalaB2";
-            this.CalaB2.RowCount = 2;
-            this.CalaB2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.CalaB2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.CalaB2.Size = new System.Drawing.Size(78, 82);
-            this.CalaB2.TabIndex = 7;
-            // 
-            // NumCalaB2
-            // 
-            this.NumCalaB2.AutoSize = true;
-            this.NumCalaB2.Location = new System.Drawing.Point(3, 41);
-            this.NumCalaB2.Name = "NumCalaB2";
-            this.NumCalaB2.Size = new System.Drawing.Size(40, 13);
-            this.NumCalaB2.TabIndex = 0;
-            this.NumCalaB2.Text = "         4";
-            // 
-            // img8
-            // 
-            this.img8.Location = new System.Drawing.Point(3, 3);
-            this.img8.Name = "img8";
-            this.img8.Size = new System.Drawing.Size(72, 23);
-            this.img8.TabIndex = 1;
-            this.img8.UseVisualStyleBackColor = true;
-            // 
-            // CalaB3
-            // 
-            this.CalaB3.ColumnCount = 1;
-            this.CalaB3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.CalaB3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.CalaB3.Controls.Add(this.NumCalaB3, 0, 1);
-            this.CalaB3.Controls.Add(this.img9, 0, 0);
-            this.CalaB3.Location = new System.Drawing.Point(180, 97);
-            this.CalaB3.Name = "CalaB3";
-            this.CalaB3.RowCount = 2;
-            this.CalaB3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.CalaB3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.CalaB3.Size = new System.Drawing.Size(78, 82);
-            this.CalaB3.TabIndex = 8;
-            // 
-            // NumCalaB3
-            // 
-            this.NumCalaB3.AutoSize = true;
-            this.NumCalaB3.Location = new System.Drawing.Point(3, 41);
-            this.NumCalaB3.Name = "NumCalaB3";
-            this.NumCalaB3.Size = new System.Drawing.Size(40, 13);
-            this.NumCalaB3.TabIndex = 0;
-            this.NumCalaB3.Text = "         4";
-            // 
-            // img9
-            // 
-            this.img9.Location = new System.Drawing.Point(3, 3);
-            this.img9.Name = "img9";
-            this.img9.Size = new System.Drawing.Size(72, 23);
-            this.img9.TabIndex = 1;
-            this.img9.UseVisualStyleBackColor = true;
-            // 
-            // CalaB4
-            // 
-            this.CalaB4.ColumnCount = 1;
-            this.CalaB4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.CalaB4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.CalaB4.Controls.Add(this.NumCalaB4, 0, 1);
-            this.CalaB4.Controls.Add(this.img10, 0, 0);
-            this.CalaB4.Location = new System.Drawing.Point(267, 97);
-            this.CalaB4.Name = "CalaB4";
-            this.CalaB4.RowCount = 2;
-            this.CalaB4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.CalaB4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.CalaB4.Size = new System.Drawing.Size(78, 82);
-            this.CalaB4.TabIndex = 9;
-            // 
-            // NumCalaB4
-            // 
-            this.NumCalaB4.AutoSize = true;
-            this.NumCalaB4.Location = new System.Drawing.Point(3, 41);
-            this.NumCalaB4.Name = "NumCalaB4";
-            this.NumCalaB4.Size = new System.Drawing.Size(40, 13);
-            this.NumCalaB4.TabIndex = 0;
-            this.NumCalaB4.Text = "         4";
-            // 
-            // img10
-            // 
-            this.img10.Location = new System.Drawing.Point(3, 3);
-            this.img10.Name = "img10";
-            this.img10.Size = new System.Drawing.Size(72, 23);
-            this.img10.TabIndex = 1;
-            this.img10.UseVisualStyleBackColor = true;
+            this.img12.Location = new System.Drawing.Point(3, 3);
+            this.img12.Name = "img12";
+            this.img12.Size = new System.Drawing.Size(75, 23);
+            this.img12.TabIndex = 1;
+            this.img12.UseVisualStyleBackColor = true;
             // 
             // CalaB5
             // 
@@ -616,55 +348,325 @@
             this.img11.TabIndex = 1;
             this.img11.UseVisualStyleBackColor = true;
             // 
-            // CalaB6
+            // CalaB4
             // 
-            this.CalaB6.ColumnCount = 1;
-            this.CalaB6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.CalaB6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.CalaB6.Controls.Add(this.NumCalaB6, 0, 1);
-            this.CalaB6.Controls.Add(this.img12, 0, 0);
-            this.CalaB6.Location = new System.Drawing.Point(441, 97);
-            this.CalaB6.Name = "CalaB6";
-            this.CalaB6.RowCount = 2;
-            this.CalaB6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.CalaB6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.CalaB6.Size = new System.Drawing.Size(81, 82);
-            this.CalaB6.TabIndex = 11;
+            this.CalaB4.ColumnCount = 1;
+            this.CalaB4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.CalaB4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.CalaB4.Controls.Add(this.NumCalaB4, 0, 1);
+            this.CalaB4.Controls.Add(this.img10, 0, 0);
+            this.CalaB4.Location = new System.Drawing.Point(267, 97);
+            this.CalaB4.Name = "CalaB4";
+            this.CalaB4.RowCount = 2;
+            this.CalaB4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.CalaB4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.CalaB4.Size = new System.Drawing.Size(78, 82);
+            this.CalaB4.TabIndex = 9;
             // 
-            // NumCalaB6
+            // NumCalaB4
             // 
-            this.NumCalaB6.AutoSize = true;
-            this.NumCalaB6.Location = new System.Drawing.Point(3, 41);
-            this.NumCalaB6.Name = "NumCalaB6";
-            this.NumCalaB6.Size = new System.Drawing.Size(40, 13);
-            this.NumCalaB6.TabIndex = 0;
-            this.NumCalaB6.Text = "         4";
+            this.NumCalaB4.AutoSize = true;
+            this.NumCalaB4.Location = new System.Drawing.Point(3, 41);
+            this.NumCalaB4.Name = "NumCalaB4";
+            this.NumCalaB4.Size = new System.Drawing.Size(40, 13);
+            this.NumCalaB4.TabIndex = 0;
+            this.NumCalaB4.Text = "         4";
             // 
-            // img12
+            // img10
             // 
-            this.img12.Location = new System.Drawing.Point(3, 3);
-            this.img12.Name = "img12";
-            this.img12.Size = new System.Drawing.Size(75, 23);
-            this.img12.TabIndex = 1;
-            this.img12.UseVisualStyleBackColor = true;
+            this.img10.Location = new System.Drawing.Point(3, 3);
+            this.img10.Name = "img10";
+            this.img10.Size = new System.Drawing.Size(72, 23);
+            this.img10.TabIndex = 1;
+            this.img10.UseVisualStyleBackColor = true;
             // 
-            // NumCalaPrincipalP1
+            // CalaB3
             // 
-            this.NumCalaPrincipalP1.AutoSize = true;
-            this.NumCalaPrincipalP1.Location = new System.Drawing.Point(53, 0);
-            this.NumCalaPrincipalP1.Name = "NumCalaPrincipalP1";
-            this.NumCalaPrincipalP1.Size = new System.Drawing.Size(13, 13);
-            this.NumCalaPrincipalP1.TabIndex = 0;
-            this.NumCalaPrincipalP1.Text = "0";
+            this.CalaB3.ColumnCount = 1;
+            this.CalaB3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.CalaB3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.CalaB3.Controls.Add(this.NumCalaB3, 0, 1);
+            this.CalaB3.Controls.Add(this.img9, 0, 0);
+            this.CalaB3.Location = new System.Drawing.Point(180, 97);
+            this.CalaB3.Name = "CalaB3";
+            this.CalaB3.RowCount = 2;
+            this.CalaB3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.CalaB3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.CalaB3.Size = new System.Drawing.Size(78, 82);
+            this.CalaB3.TabIndex = 8;
             // 
-            // button1
+            // NumCalaB3
             // 
-            this.button1.Location = new System.Drawing.Point(3, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(44, 44);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.NumCalaB3.AutoSize = true;
+            this.NumCalaB3.Location = new System.Drawing.Point(3, 41);
+            this.NumCalaB3.Name = "NumCalaB3";
+            this.NumCalaB3.Size = new System.Drawing.Size(40, 13);
+            this.NumCalaB3.TabIndex = 0;
+            this.NumCalaB3.Text = "         4";
+            // 
+            // img9
+            // 
+            this.img9.Location = new System.Drawing.Point(3, 3);
+            this.img9.Name = "img9";
+            this.img9.Size = new System.Drawing.Size(72, 23);
+            this.img9.TabIndex = 1;
+            this.img9.UseVisualStyleBackColor = true;
+            // 
+            // CalaB2
+            // 
+            this.CalaB2.ColumnCount = 1;
+            this.CalaB2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.CalaB2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.CalaB2.Controls.Add(this.NumCalaB2, 0, 1);
+            this.CalaB2.Controls.Add(this.img8, 0, 0);
+            this.CalaB2.Location = new System.Drawing.Point(93, 97);
+            this.CalaB2.Name = "CalaB2";
+            this.CalaB2.RowCount = 2;
+            this.CalaB2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.CalaB2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.CalaB2.Size = new System.Drawing.Size(78, 82);
+            this.CalaB2.TabIndex = 7;
+            // 
+            // NumCalaB2
+            // 
+            this.NumCalaB2.AutoSize = true;
+            this.NumCalaB2.Location = new System.Drawing.Point(3, 41);
+            this.NumCalaB2.Name = "NumCalaB2";
+            this.NumCalaB2.Size = new System.Drawing.Size(40, 13);
+            this.NumCalaB2.TabIndex = 0;
+            this.NumCalaB2.Text = "         4";
+            // 
+            // img8
+            // 
+            this.img8.Location = new System.Drawing.Point(3, 3);
+            this.img8.Name = "img8";
+            this.img8.Size = new System.Drawing.Size(72, 23);
+            this.img8.TabIndex = 1;
+            this.img8.UseVisualStyleBackColor = true;
+            // 
+            // CalaA6
+            // 
+            this.CalaA6.ColumnCount = 1;
+            this.CalaA6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.CalaA6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.CalaA6.Controls.Add(this.NumCalaA6, 0, 1);
+            this.CalaA6.Controls.Add(this.img6, 0, 0);
+            this.CalaA6.Location = new System.Drawing.Point(441, 6);
+            this.CalaA6.Name = "CalaA6";
+            this.CalaA6.RowCount = 2;
+            this.CalaA6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.CalaA6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.CalaA6.Size = new System.Drawing.Size(81, 82);
+            this.CalaA6.TabIndex = 6;
+            // 
+            // NumCalaA6
+            // 
+            this.NumCalaA6.AutoSize = true;
+            this.NumCalaA6.Location = new System.Drawing.Point(3, 41);
+            this.NumCalaA6.Name = "NumCalaA6";
+            this.NumCalaA6.Size = new System.Drawing.Size(40, 13);
+            this.NumCalaA6.TabIndex = 0;
+            this.NumCalaA6.Text = "         4";
+            // 
+            // img6
+            // 
+            this.img6.Location = new System.Drawing.Point(3, 3);
+            this.img6.Name = "img6";
+            this.img6.Size = new System.Drawing.Size(75, 23);
+            this.img6.TabIndex = 1;
+            this.img6.UseVisualStyleBackColor = true;
+            // 
+            // CalaA5
+            // 
+            this.CalaA5.ColumnCount = 1;
+            this.CalaA5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.CalaA5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.CalaA5.Controls.Add(this.NumCalaA5, 0, 1);
+            this.CalaA5.Controls.Add(this.img5, 0, 0);
+            this.CalaA5.Location = new System.Drawing.Point(354, 6);
+            this.CalaA5.Name = "CalaA5";
+            this.CalaA5.RowCount = 2;
+            this.CalaA5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.CalaA5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.CalaA5.Size = new System.Drawing.Size(78, 82);
+            this.CalaA5.TabIndex = 5;
+            // 
+            // NumCalaA5
+            // 
+            this.NumCalaA5.AutoSize = true;
+            this.NumCalaA5.Location = new System.Drawing.Point(3, 41);
+            this.NumCalaA5.Name = "NumCalaA5";
+            this.NumCalaA5.Size = new System.Drawing.Size(40, 13);
+            this.NumCalaA5.TabIndex = 0;
+            this.NumCalaA5.Text = "         4";
+            // 
+            // img5
+            // 
+            this.img5.Location = new System.Drawing.Point(3, 3);
+            this.img5.Name = "img5";
+            this.img5.Size = new System.Drawing.Size(72, 23);
+            this.img5.TabIndex = 1;
+            this.img5.UseVisualStyleBackColor = true;
+            // 
+            // CalaA4
+            // 
+            this.CalaA4.ColumnCount = 1;
+            this.CalaA4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.CalaA4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.CalaA4.Controls.Add(this.NumCalaA4, 0, 1);
+            this.CalaA4.Controls.Add(this.img4, 0, 0);
+            this.CalaA4.Location = new System.Drawing.Point(267, 6);
+            this.CalaA4.Name = "CalaA4";
+            this.CalaA4.RowCount = 2;
+            this.CalaA4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.CalaA4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.CalaA4.Size = new System.Drawing.Size(78, 82);
+            this.CalaA4.TabIndex = 4;
+            // 
+            // NumCalaA4
+            // 
+            this.NumCalaA4.AutoSize = true;
+            this.NumCalaA4.Location = new System.Drawing.Point(3, 41);
+            this.NumCalaA4.Name = "NumCalaA4";
+            this.NumCalaA4.Size = new System.Drawing.Size(40, 13);
+            this.NumCalaA4.TabIndex = 0;
+            this.NumCalaA4.Text = "         4";
+            // 
+            // img4
+            // 
+            this.img4.Location = new System.Drawing.Point(3, 3);
+            this.img4.Name = "img4";
+            this.img4.Size = new System.Drawing.Size(72, 23);
+            this.img4.TabIndex = 1;
+            this.img4.UseVisualStyleBackColor = true;
+            // 
+            // CalaA3
+            // 
+            this.CalaA3.ColumnCount = 1;
+            this.CalaA3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.CalaA3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.CalaA3.Controls.Add(this.NumCalaA3, 0, 1);
+            this.CalaA3.Controls.Add(this.img3, 0, 0);
+            this.CalaA3.Location = new System.Drawing.Point(180, 6);
+            this.CalaA3.Name = "CalaA3";
+            this.CalaA3.RowCount = 2;
+            this.CalaA3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.CalaA3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.CalaA3.Size = new System.Drawing.Size(78, 82);
+            this.CalaA3.TabIndex = 3;
+            // 
+            // NumCalaA3
+            // 
+            this.NumCalaA3.AutoSize = true;
+            this.NumCalaA3.Location = new System.Drawing.Point(3, 41);
+            this.NumCalaA3.Name = "NumCalaA3";
+            this.NumCalaA3.Size = new System.Drawing.Size(40, 13);
+            this.NumCalaA3.TabIndex = 0;
+            this.NumCalaA3.Text = "         4";
+            // 
+            // img3
+            // 
+            this.img3.Location = new System.Drawing.Point(3, 3);
+            this.img3.Name = "img3";
+            this.img3.Size = new System.Drawing.Size(72, 23);
+            this.img3.TabIndex = 1;
+            this.img3.UseVisualStyleBackColor = true;
+            // 
+            // CalaA2
+            // 
+            this.CalaA2.ColumnCount = 1;
+            this.CalaA2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.CalaA2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.CalaA2.Controls.Add(this.NumCalaA2, 0, 1);
+            this.CalaA2.Controls.Add(this.img2, 0, 0);
+            this.CalaA2.Location = new System.Drawing.Point(93, 6);
+            this.CalaA2.Name = "CalaA2";
+            this.CalaA2.RowCount = 2;
+            this.CalaA2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.CalaA2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.CalaA2.Size = new System.Drawing.Size(78, 82);
+            this.CalaA2.TabIndex = 2;
+            // 
+            // NumCalaA2
+            // 
+            this.NumCalaA2.AutoSize = true;
+            this.NumCalaA2.Location = new System.Drawing.Point(3, 41);
+            this.NumCalaA2.Name = "NumCalaA2";
+            this.NumCalaA2.Size = new System.Drawing.Size(40, 13);
+            this.NumCalaA2.TabIndex = 0;
+            this.NumCalaA2.Text = "         4";
+            // 
+            // img2
+            // 
+            this.img2.Location = new System.Drawing.Point(3, 3);
+            this.img2.Name = "img2";
+            this.img2.Size = new System.Drawing.Size(72, 23);
+            this.img2.TabIndex = 1;
+            this.img2.UseVisualStyleBackColor = true;
+            // 
+            // CalaA1
+            // 
+            this.CalaA1.ColumnCount = 1;
+            this.CalaA1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.CalaA1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.CalaA1.Controls.Add(this.NumCalaA1, 0, 1);
+            this.CalaA1.Controls.Add(this.img1, 0, 0);
+            this.CalaA1.Location = new System.Drawing.Point(6, 6);
+            this.CalaA1.Name = "CalaA1";
+            this.CalaA1.RowCount = 2;
+            this.CalaA1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.CalaA1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.CalaA1.Size = new System.Drawing.Size(78, 82);
+            this.CalaA1.TabIndex = 1;
+            // 
+            // NumCalaA1
+            // 
+            this.NumCalaA1.AutoSize = true;
+            this.NumCalaA1.Location = new System.Drawing.Point(3, 41);
+            this.NumCalaA1.Name = "NumCalaA1";
+            this.NumCalaA1.Size = new System.Drawing.Size(40, 13);
+            this.NumCalaA1.TabIndex = 0;
+            this.NumCalaA1.Text = "         4";
+            // 
+            // img1
+            // 
+            this.img1.Location = new System.Drawing.Point(3, 3);
+            this.img1.Name = "img1";
+            this.img1.Size = new System.Drawing.Size(72, 23);
+            this.img1.TabIndex = 1;
+            this.img1.UseVisualStyleBackColor = true;
+            // 
+            // CalaB1
+            // 
+            this.CalaB1.ColumnCount = 1;
+            this.CalaB1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.CalaB1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.CalaB1.Controls.Add(this.NumCalaB1, 0, 1);
+            this.CalaB1.Controls.Add(this.img7, 0, 0);
+            this.CalaB1.Location = new System.Drawing.Point(6, 97);
+            this.CalaB1.Name = "CalaB1";
+            this.CalaB1.RowCount = 2;
+            this.CalaB1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.CalaB1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.CalaB1.Size = new System.Drawing.Size(78, 82);
+            this.CalaB1.TabIndex = 0;
+            // 
+            // NumCalaB1
+            // 
+            this.NumCalaB1.AutoSize = true;
+            this.NumCalaB1.Location = new System.Drawing.Point(3, 41);
+            this.NumCalaB1.Name = "NumCalaB1";
+            this.NumCalaB1.Size = new System.Drawing.Size(43, 13);
+            this.NumCalaB1.TabIndex = 0;
+            this.NumCalaB1.Text = "          4";
+            // 
+            // img7
+            // 
+            this.img7.Location = new System.Drawing.Point(3, 3);
+            this.img7.Name = "img7";
+            this.img7.Size = new System.Drawing.Size(72, 23);
+            this.img7.TabIndex = 1;
+            this.img7.UseVisualStyleBackColor = true;
             // 
             // Game
             // 
@@ -693,30 +695,30 @@
             this.CalaPrincipalP1.ResumeLayout(false);
             this.CalaPrincipalP1.PerformLayout();
             this.Tabuleiro.ResumeLayout(false);
-            this.CalaB1.ResumeLayout(false);
-            this.CalaB1.PerformLayout();
-            this.CalaA1.ResumeLayout(false);
-            this.CalaA1.PerformLayout();
-            this.CalaA2.ResumeLayout(false);
-            this.CalaA2.PerformLayout();
-            this.CalaA3.ResumeLayout(false);
-            this.CalaA3.PerformLayout();
-            this.CalaA4.ResumeLayout(false);
-            this.CalaA4.PerformLayout();
-            this.CalaA5.ResumeLayout(false);
-            this.CalaA5.PerformLayout();
-            this.CalaA6.ResumeLayout(false);
-            this.CalaA6.PerformLayout();
-            this.CalaB2.ResumeLayout(false);
-            this.CalaB2.PerformLayout();
-            this.CalaB3.ResumeLayout(false);
-            this.CalaB3.PerformLayout();
-            this.CalaB4.ResumeLayout(false);
-            this.CalaB4.PerformLayout();
-            this.CalaB5.ResumeLayout(false);
-            this.CalaB5.PerformLayout();
             this.CalaB6.ResumeLayout(false);
             this.CalaB6.PerformLayout();
+            this.CalaB5.ResumeLayout(false);
+            this.CalaB5.PerformLayout();
+            this.CalaB4.ResumeLayout(false);
+            this.CalaB4.PerformLayout();
+            this.CalaB3.ResumeLayout(false);
+            this.CalaB3.PerformLayout();
+            this.CalaB2.ResumeLayout(false);
+            this.CalaB2.PerformLayout();
+            this.CalaA6.ResumeLayout(false);
+            this.CalaA6.PerformLayout();
+            this.CalaA5.ResumeLayout(false);
+            this.CalaA5.PerformLayout();
+            this.CalaA4.ResumeLayout(false);
+            this.CalaA4.PerformLayout();
+            this.CalaA3.ResumeLayout(false);
+            this.CalaA3.PerformLayout();
+            this.CalaA2.ResumeLayout(false);
+            this.CalaA2.PerformLayout();
+            this.CalaA1.ResumeLayout(false);
+            this.CalaA1.PerformLayout();
+            this.CalaB1.ResumeLayout(false);
+            this.CalaB1.PerformLayout();
             this.ResumeLayout(false);
 
         }
