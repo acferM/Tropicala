@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Game));
-            this.CalaPrincipalP2 = new System.Windows.Forms.TableLayoutPanel();
             this.CalaPrincipalP1 = new System.Windows.Forms.TableLayoutPanel();
             this.NumCalaPrincipalP1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -82,6 +81,9 @@
             this.CalaB1 = new System.Windows.Forms.TableLayoutPanel();
             this.NumCalaB1 = new System.Windows.Forms.Label();
             this.img7 = new System.Windows.Forms.Button();
+            this.CalaPrincipalP2 = new System.Windows.Forms.TableLayoutPanel();
+            this.NumCalaPrincipalP2 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.CalaPrincipalP1.SuspendLayout();
             this.Tabuleiro.SuspendLayout();
             this.CalaB6.SuspendLayout();
@@ -96,23 +98,12 @@
             this.CalaA2.SuspendLayout();
             this.CalaA1.SuspendLayout();
             this.CalaB1.SuspendLayout();
+            this.CalaPrincipalP2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // CalaPrincipalP2
-            // 
-            this.CalaPrincipalP2.ColumnCount = 1;
-            this.CalaPrincipalP2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.CalaPrincipalP2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.CalaPrincipalP2.Location = new System.Drawing.Point(12, 148);
-            this.CalaPrincipalP2.Name = "CalaPrincipalP2";
-            this.CalaPrincipalP2.RowCount = 1;
-            this.CalaPrincipalP2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.CalaPrincipalP2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 185F));
-            this.CalaPrincipalP2.Size = new System.Drawing.Size(106, 185);
-            this.CalaPrincipalP2.TabIndex = 1;
             // 
             // CalaPrincipalP1
             // 
+            this.CalaPrincipalP1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.OutsetDouble;
             this.CalaPrincipalP1.ColumnCount = 2;
             this.CalaPrincipalP1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.CalaPrincipalP1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -128,7 +119,7 @@
             // NumCalaPrincipalP1
             // 
             this.NumCalaPrincipalP1.AutoSize = true;
-            this.NumCalaPrincipalP1.Location = new System.Drawing.Point(53, 0);
+            this.NumCalaPrincipalP1.Location = new System.Drawing.Point(54, 3);
             this.NumCalaPrincipalP1.Name = "NumCalaPrincipalP1";
             this.NumCalaPrincipalP1.Size = new System.Drawing.Size(13, 13);
             this.NumCalaPrincipalP1.TabIndex = 0;
@@ -136,9 +127,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(3, 3);
+            this.button1.Location = new System.Drawing.Point(6, 6);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(44, 44);
+            this.button1.Size = new System.Drawing.Size(39, 44);
             this.button1.TabIndex = 1;
             this.button1.UseVisualStyleBackColor = true;
             // 
@@ -190,6 +181,7 @@
             this.MoverB5.TabIndex = 7;
             this.MoverB5.Text = "Mover";
             this.MoverB5.UseVisualStyleBackColor = true;
+            this.MoverB5.Click += new System.EventHandler(this.MoverB5_Click);
             // 
             // MoverB6
             // 
@@ -199,6 +191,7 @@
             this.MoverB6.TabIndex = 8;
             this.MoverB6.Text = "Mover";
             this.MoverB6.UseVisualStyleBackColor = true;
+            this.MoverB6.Click += new System.EventHandler(this.MoverB6_Click);
             // 
             // MoverA1
             // 
@@ -208,6 +201,7 @@
             this.MoverA1.TabIndex = 9;
             this.MoverA1.Text = "Mover";
             this.MoverA1.UseVisualStyleBackColor = true;
+            this.MoverA1.Click += new System.EventHandler(this.MoverA1_Click);
             // 
             // MoverA2
             // 
@@ -217,6 +211,7 @@
             this.MoverA2.TabIndex = 10;
             this.MoverA2.Text = "Mover";
             this.MoverA2.UseVisualStyleBackColor = true;
+            this.MoverA2.Click += new System.EventHandler(this.MoverA2_Click);
             // 
             // MoverA3
             // 
@@ -226,6 +221,7 @@
             this.MoverA3.TabIndex = 11;
             this.MoverA3.Text = "Mover";
             this.MoverA3.UseVisualStyleBackColor = true;
+            this.MoverA3.Click += new System.EventHandler(this.MoverA3_Click);
             // 
             // MoverA4
             // 
@@ -235,6 +231,7 @@
             this.MoverA4.TabIndex = 12;
             this.MoverA4.Text = "Mover";
             this.MoverA4.UseVisualStyleBackColor = true;
+            this.MoverA4.Click += new System.EventHandler(this.MoverA4_Click);
             // 
             // MoverA5
             // 
@@ -668,11 +665,44 @@
             this.img7.TabIndex = 1;
             this.img7.UseVisualStyleBackColor = true;
             // 
+            // CalaPrincipalP2
+            // 
+            this.CalaPrincipalP2.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.OutsetDouble;
+            this.CalaPrincipalP2.ColumnCount = 2;
+            this.CalaPrincipalP2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.CalaPrincipalP2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.CalaPrincipalP2.Controls.Add(this.NumCalaPrincipalP2, 1, 0);
+            this.CalaPrincipalP2.Controls.Add(this.button2, 0, 0);
+            this.CalaPrincipalP2.Location = new System.Drawing.Point(21, 148);
+            this.CalaPrincipalP2.Name = "CalaPrincipalP2";
+            this.CalaPrincipalP2.RowCount = 1;
+            this.CalaPrincipalP2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.CalaPrincipalP2.Size = new System.Drawing.Size(100, 185);
+            this.CalaPrincipalP2.TabIndex = 16;
+            // 
+            // NumCalaPrincipalP2
+            // 
+            this.NumCalaPrincipalP2.AutoSize = true;
+            this.NumCalaPrincipalP2.Location = new System.Drawing.Point(54, 3);
+            this.NumCalaPrincipalP2.Name = "NumCalaPrincipalP2";
+            this.NumCalaPrincipalP2.Size = new System.Drawing.Size(13, 13);
+            this.NumCalaPrincipalP2.TabIndex = 0;
+            this.NumCalaPrincipalP2.Text = "0";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(6, 6);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(39, 44);
+            this.button2.TabIndex = 1;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // Game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(803, 486);
+            this.Controls.Add(this.CalaPrincipalP2);
             this.Controls.Add(this.Tabuleiro);
             this.Controls.Add(this.MoverA6);
             this.Controls.Add(this.MoverA5);
@@ -687,7 +717,6 @@
             this.Controls.Add(this.MoverB2);
             this.Controls.Add(this.MoverB1);
             this.Controls.Add(this.CalaPrincipalP1);
-            this.Controls.Add(this.CalaPrincipalP2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Game";
             this.Text = "Tropicala";
@@ -719,12 +748,13 @@
             this.CalaA1.PerformLayout();
             this.CalaB1.ResumeLayout(false);
             this.CalaB1.PerformLayout();
+            this.CalaPrincipalP2.ResumeLayout(false);
+            this.CalaPrincipalP2.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.TableLayoutPanel CalaPrincipalP2;
         private System.Windows.Forms.TableLayoutPanel CalaPrincipalP1;
         private System.Windows.Forms.Button MoverB1;
         private System.Windows.Forms.Button MoverB2;
@@ -777,5 +807,8 @@
         private System.Windows.Forms.Button img7;
         private System.Windows.Forms.Label NumCalaPrincipalP1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TableLayoutPanel CalaPrincipalP2;
+        private System.Windows.Forms.Label NumCalaPrincipalP2;
+        private System.Windows.Forms.Button button2;
     }
 }
