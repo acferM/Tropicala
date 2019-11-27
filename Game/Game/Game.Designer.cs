@@ -80,10 +80,10 @@
             this.img1 = new System.Windows.Forms.Button();
             this.CalaB1 = new System.Windows.Forms.TableLayoutPanel();
             this.NumCalaB1 = new System.Windows.Forms.Label();
-            this.img7 = new System.Windows.Forms.Button();
             this.CalaPrincipalP2 = new System.Windows.Forms.TableLayoutPanel();
             this.NumCalaPrincipalP2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.img7 = new System.Windows.Forms.Button();
             this.CalaPrincipalP1.SuspendLayout();
             this.Tabuleiro.SuspendLayout();
             this.CalaB6.SuspendLayout();
@@ -241,6 +241,7 @@
             this.MoverA5.TabIndex = 13;
             this.MoverA5.Text = "Mover";
             this.MoverA5.UseVisualStyleBackColor = true;
+            this.MoverA5.Click += new System.EventHandler(this.MoverA5_Click);
             // 
             // MoverA6
             // 
@@ -657,14 +658,6 @@
             this.NumCalaB1.TabIndex = 0;
             this.NumCalaB1.Text = "          4";
             // 
-            // img7
-            // 
-            this.img7.Location = new System.Drawing.Point(3, 3);
-            this.img7.Name = "img7";
-            this.img7.Size = new System.Drawing.Size(72, 23);
-            this.img7.TabIndex = 1;
-            this.img7.UseVisualStyleBackColor = true;
-            // 
             // CalaPrincipalP2
             // 
             this.CalaPrincipalP2.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.OutsetDouble;
@@ -691,11 +684,23 @@
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.ForeColor = System.Drawing.Color.Transparent;
             this.button2.Location = new System.Drawing.Point(6, 6);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(39, 44);
             this.button2.TabIndex = 1;
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // img7
+            // 
+            this.img7.Location = new System.Drawing.Point(3, 3);
+            this.img7.Name = "img7";
+            this.img7.Size = new System.Drawing.Size(72, 23);
+            this.img7.TabIndex = 1;
+            this.img7.UseVisualStyleBackColor = true;
             // 
             // Game
             // 
@@ -804,11 +809,11 @@
         private System.Windows.Forms.Button img1;
         private System.Windows.Forms.TableLayoutPanel CalaB1;
         private System.Windows.Forms.Label NumCalaB1;
-        private System.Windows.Forms.Button img7;
         private System.Windows.Forms.Label NumCalaPrincipalP1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TableLayoutPanel CalaPrincipalP2;
         private System.Windows.Forms.Label NumCalaPrincipalP2;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button img7;
     }
 }
