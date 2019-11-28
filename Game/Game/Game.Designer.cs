@@ -80,10 +80,10 @@
             this.img1 = new System.Windows.Forms.Button();
             this.CalaB1 = new System.Windows.Forms.TableLayoutPanel();
             this.NumCalaB1 = new System.Windows.Forms.Label();
+            this.img7 = new System.Windows.Forms.Button();
             this.CalaPrincipalP2 = new System.Windows.Forms.TableLayoutPanel();
             this.NumCalaPrincipalP2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
-            this.img7 = new System.Windows.Forms.Button();
             this.CalaPrincipalP1.SuspendLayout();
             this.Tabuleiro.SuspendLayout();
             this.CalaB6.SuspendLayout();
@@ -334,9 +334,9 @@
             this.NumCalaB5.AutoSize = true;
             this.NumCalaB5.Location = new System.Drawing.Point(3, 41);
             this.NumCalaB5.Name = "NumCalaB5";
-            this.NumCalaB5.Size = new System.Drawing.Size(40, 13);
+            this.NumCalaB5.Size = new System.Drawing.Size(43, 13);
             this.NumCalaB5.TabIndex = 0;
-            this.NumCalaB5.Text = "         4";
+            this.NumCalaB5.Text = "          4";
             // 
             // img11
             // 
@@ -398,9 +398,9 @@
             this.NumCalaB3.AutoSize = true;
             this.NumCalaB3.Location = new System.Drawing.Point(3, 41);
             this.NumCalaB3.Name = "NumCalaB3";
-            this.NumCalaB3.Size = new System.Drawing.Size(40, 13);
+            this.NumCalaB3.Size = new System.Drawing.Size(43, 13);
             this.NumCalaB3.TabIndex = 0;
-            this.NumCalaB3.Text = "         4";
+            this.NumCalaB3.Text = "          4";
             // 
             // img9
             // 
@@ -658,6 +658,14 @@
             this.NumCalaB1.TabIndex = 0;
             this.NumCalaB1.Text = "          4";
             // 
+            // img7
+            // 
+            this.img7.Location = new System.Drawing.Point(3, 3);
+            this.img7.Name = "img7";
+            this.img7.Size = new System.Drawing.Size(72, 23);
+            this.img7.TabIndex = 1;
+            this.img7.UseVisualStyleBackColor = true;
+            // 
             // CalaPrincipalP2
             // 
             this.CalaPrincipalP2.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.OutsetDouble;
@@ -693,14 +701,6 @@
             this.button2.Size = new System.Drawing.Size(39, 44);
             this.button2.TabIndex = 1;
             this.button2.UseVisualStyleBackColor = false;
-            // 
-            // img7
-            // 
-            this.img7.Location = new System.Drawing.Point(3, 3);
-            this.img7.Name = "img7";
-            this.img7.Size = new System.Drawing.Size(72, 23);
-            this.img7.TabIndex = 1;
-            this.img7.UseVisualStyleBackColor = true;
             // 
             // Game
             // 
